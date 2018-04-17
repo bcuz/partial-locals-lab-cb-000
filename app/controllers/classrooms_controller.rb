@@ -3,7 +3,7 @@ class ClassroomsController < ApplicationController
     @classroom = Classroom.find(params[:id])
     @student = @classroom.oldest_student
 
-    binding.pry
+    # binding.pry
 
   end
 
